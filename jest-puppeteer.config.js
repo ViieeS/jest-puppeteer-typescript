@@ -2,7 +2,11 @@ module.exports = {
     launch: {
         dumpio: true,
         headless: false,
-        args: ['--disable-infobars'],
+        defaultViewport: null,
+        args: [
+            '--disable-infobars',
+            '--start-maximized',
+        ],
     },
     browserContext: 'default'
 };
