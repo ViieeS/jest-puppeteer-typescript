@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "strict": true,
     "baseUrl": "./",
     "outDir": "dist",
@@ -9,8 +8,8 @@
     "esModuleInterop": true,
     "target": "ES2019",
     "emitDecoratorMetadata": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": true,
     "typeRoots": [
       "node_modules/@types"
     ]
